@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* img 1 code start */
+
+/* .container{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    border: 1px solid red;
+    width: 90%;
+    margin-inline: auto;
+}
+.div1{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: grey;
+}
+.div2{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: blue;
+}
+.div3{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.div4{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: cyan;
+}
+.div5{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: orange;
+}
+.div6{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: brown;
+} */
+
+/* img 1 code end */
+
+
+
+/* img 2 code start */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* .container {
+    display: grid;
+    grid-template-areas: 
+        "div1 div1 div4"
+        "div2 div3 div4";
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    width: 80%;
+    height: 300px;
+    margin-inline: auto;
+}
+
+.div1 {
+    grid-area: div1;
+    background-color:blue;
+    border-radius: 5px;
+}
+
+.div2 {
+    grid-area: div2;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.div3 {
+    grid-area: div3;
+    background-color: cyan;
+    border-radius: 5px;
+}
+
+.div4 {
+    grid-area: div4;
+    background-color: yellow;
+    border-radius: 5px;
+} */
+
+/* img 2 code end */
+
+
+
+/* img 3 code start */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "div1 div1"
+    "div2 div3"
+    "div4 div4";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+    width: 90%;
+    height: 500px;
+    margin-inline: auto;
+}
+.div1 {
+    grid-area: div1;
+    background-color:blue;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.div2 {
+    grid-area: div2;
+    background-color:red;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.div3 {
+    grid-area: div3;
+    background-color:yellow;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.div4 {
+    grid-area: div4;
+    background-color:gray;
+    border-radius: 5px;
+    height: 100px;
+} */
+
+/* img 3 code end */
+
+
+/* img 4 code start */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "div1 div1 div2 div2"
+    "div3 div4 div4 div4"
+    "div5 div5 div5 div5";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 3fr 1fr ;
+    width: 90vw;
+    height: 300px;
+    gap:5px;
+    margin-inline: auto;
+}
+.div1 {
+    grid-area: div1;
+    background-color:blue;
+    border-radius: 5px;
+}
+
+.div2 {
+    grid-area: div2;
+    background-color:red;
+    border-radius: 5px;
+}
+
+.div3 {
+    grid-area: div3;
+    background-color:yellow;
+    border-radius: 5px;
+}
+
+.div4 {
+    grid-area: div4;
+    background-color:gray;
+    border-radius: 5px;
+}
+.div5 {
+    grid-area: div5;
+    background-color:green;
+    border-radius: 5px;
+} */
+/* .div6 {
+    grid-area: div6;
+    background-color:black;
+    border-radius: 5px;
+} */
+
+/* img 4 code end */
+
+
+
+
+
+
+
+/* img 8 code start */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "div1 div2 div3 div4 div5"
+    "div6 div7 div8 div8 div8"
+    "div9 div9 div9 div9 div9";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    width: 90vw;
+    height: 300px;
+    gap:5px;
+    margin-inline: auto;
+}
+.div1 {
+    grid-area: div1;
+    background-color:blue;
+    border-radius: 5px;
+}
+
+.div2 {
+    grid-area: div2;
+    background-color:red;
+    border-radius: 5px;
+}
+
+.div3 {
+    grid-area: div3;
+    background-color:yellow;
+    border-radius: 5px;
+}
+
+.div4 {
+    grid-area: div4;
+    background-color:gray;
+    border-radius: 5px;
+}
+.div5 {
+    grid-area: div5;
+    background-color:green;
+    border-radius: 5px;
+}
+.div6 {
+    grid-area: div6;
+    background-color:black;
+    border-radius: 5px;
+}
+.div7 {
+    grid-area: div7;
+    background-color:brown;
+    border-radius: 5px;
+}
+.div8 {
+    grid-area: div8;
+    background-color:cyan;
+    border-radius: 5px;
+}
+.div9 {
+    grid-area: div9;
+    background-color:lawngreen;
+    border-radius: 5px;
+} */
+/* img 8 code end */
+
+
+
+
+
+
+
+
+/* hard code start */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a2e; 
+ }
+ 
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 80vw;
+    height: 70vh;
+    padding: 5px;
+ }
+ 
+ .box {
+    border-radius: 5px;
+ }
+ 
+ .div1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3; 
+    background-color: green;
+ }
+ 
+ .div2 {
+    grid-column: 2 / span 2; 
+    grid-row: 1 / span 1; 
+    background-color: green;
+ }
+ 
+ .div3 {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1; 
+    background-color: red;
+ }
+ 
+ .div4 {
+    grid-column: 2 / span 1; 
+    grid-row: 2 / span 1; 
+    background-color: yellow;
+ }
+ 
+ .div5 {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1; 
+    background-color: red;
+ }
+ 
+ .div6 {
+    grid-column: 2 / span 1; 
+    grid-row: 3 / span 1; 
+    background-color: red;
+ }
+ 
+ .div7 {
+    grid-column: 3 / span 1; 
+    grid-row: 3 / span 1; 
+    background-color: yellow;
+ }
+ 
+ .div8 {
+    grid-column: 4 / span 1; 
+    grid-row: 2 / span 2; 
+    background-color: green;
+ } 
+
+/* hard code end */

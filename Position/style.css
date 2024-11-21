@@ -1,0 +1,101 @@
+/* position relative start */
+
+/* change their place but in their plcae no one can come  */
+/* height and width and change according to top right left and bottom */
+/* collect space according to their place like when use top 50px so place their img place to 50px top */
+
+/* div{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.img1{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.img3{
+    position: relative;
+    top: 50px;
+    right: 50px;
+} */
+
+
+/* position relative end */
+
+
+
+/* position absolute start */
+
+/* change their place and also leave their place anyone can come on place */
+/* height and width and change according to top right left and bottom */
+/* collect space according to their first position nearest ancester place like when use top 50px so place their img place to 50px top */
+
+/* div{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.img1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.img3{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+} */
+
+/* position absolute end */
+
+
+/* position fixed start */
+
+/* their place fixed not change even lots of div on page  */
+/*  they leave their current space */
+
+/* div{
+    border: 1px solid black;
+    height: 600px;
+    position: relative;
+}
+
+.img2{
+    position: fixed;
+}  */
+
+/* position fixed end */
+
+
+/* position sticky start */
+
+/* their place fixed until their div height only after below div start so they remove their fixed position */
+/*  they not leave their current space */
+
+/* div{
+    height: 600px;
+    position: relative;
+}
+.div1{
+    border: 1px solid black;
+    height: 700px;
+}
+.div2{
+    border: 1px solid black;
+    height: 1200px;
+}
+.img1{
+    top: 300px;
+    position: sticky;
+} 
+.img4{
+    top: 300px;
+    position: fixed;
+} */
+
+/* position sticky end */
